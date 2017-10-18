@@ -1,0 +1,352 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	color: white;
+}
+/*工具箱*/
+.left-float{
+	float: left;
+}
+.right-float{
+	float: right;
+}
+.font_18px{
+	font-size: 18px;
+}
+
+/*头部*/
+.head{
+	width: 1360px;
+}
+.head .logo1{
+	width: 130px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.head ul{
+	overflow: hidden;
+	margin-right: 70px;
+	margin-top: 50px;
+}
+.head ul li{
+	float: left;
+}
+.head ul li+li{
+	margin-left: 40px;
+}
+.head ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+/*中部*/
+.content{
+	/*position: relative;
+	margin-left: ;*/
+}
+.content .ct_one{
+	width: 240px;
+	height: 150px;
+	position: absolute;
+	/*border: 1px solid #ccc;*/
+	left: 140px;
+	top: 270px;
+	animation: ct_one_move 2s both ease-out;
+}
+.content .logo{
+	width: 65px;
+	height: 65px;
+	left: 85px;
+	top: 10px;
+	position: absolute;
+}
+.content .p1{
+	position: absolute;
+	left: 435px;
+	top: 25px;
+}
+.content .oneP{
+	position: absolute;
+	left: 10px;
+	top: 100px;
+	color: #e7d675;
+}
+.content .arrow{
+	position: absolute;
+	left: 630px;
+	top: 600px;
+}
+/*-------------------------------------图一>>>>>star------------------------------------------*/
+.content .p1-1{
+	background: url(../images/p1-1.png);
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	left: 535px;
+	top: 216px;
+	animation: p1_1 3s both linear infinite;
+}
+.content .p1-2{
+	background: url(../images/p1-2.png);
+	width: 58px;
+	height: 21px;
+	position: absolute;
+	left: 455px;
+	top: 107px;
+}
+.content .p1-3{
+	background: url(../images/p1-3.png);
+	width: 11px;
+	height: 13px;
+	position: absolute;
+	left: 475px;
+	top: 126px;
+	animation: p1_3 3s both linear infinite;
+}
+.content .p1-4{
+	background: url(../images/p1-4.png);
+	width: 11px;
+	height: 13px;
+	z-index: 1;
+	position: absolute;
+	left: 590px;
+	top: 38px;
+	animation: p1_4 7s both linear infinite;
+}
+.content .p1-5{
+	background: url(../images/p1-5.png);
+	width: 22px;
+	height: 21px;
+	position: absolute;
+	left: 513px;
+	top: 72px;
+	animation: p1_5 7s both linear infinite;
+}
+.content .p1-6{
+	background: url(../images/p1-6.png);
+	width: 92px;
+	height: 37px;
+	position: absolute;
+	left: 582px;
+	top: 125px;
+	animation: p1_6 5s both linear infinite;
+}
+.content .p1-7father{
+	width: 35px;
+	height: 50px;
+	/*border: 1px solid #ccc;*/
+	position: absolute;
+	animation: p1_7father 5s linear both infinite;
+	left: 565px;
+	top: 102px;
+}
+.content .p1-7{
+	width: 35px;
+	height: 50px;
+	background: url(../images/p1-7.png);
+	position: absolute;
+	animation: p1_7 2s step-start infinite;
+	/*left: 394px;
+	top: 102px;*/
+}
+/*-------------------------------------图一>>>>>end------------------------------------------*/
+
+/*-------------------------------------图二>>>>>star------------------------------------------*/
+.content .p2-1{/*云*/
+	width: 76px;
+	height: 32px;
+	z-index: 1;
+	background: url(../images/p2-1.png);
+	position: absolute;
+	left: 701px;
+	top: 56px;
+	/*animation: p2_1 3s linear both infinite;*/
+}
+.content .p2-2{/*飞机*/
+	width: 115px;
+	height: 36px;
+	background: url(../images/p2-2.png);
+	position: absolute;
+	left: 666px;
+	top: 64px;
+	animation: p2_2 10s linear both infinite;
+}
+/*字体云*/
+/*蓝色字体云*/
+.content .p2-3{
+	width: 58px;
+	height: 25px;
+	/*border: 1px solid #ccc;*/
+	position: absolute;
+	left: 734px;
+	top: 97px;
+	animation: first_show 5s both linear ;
+}
+.content .p2-3 p{
+	position: absolute;
+	left: 20px;
+	top: 2px;
+	z-index: 1;
+}
+.content .p2-3 img{
+	position: absolute;
+}
+/*粉红色字体云*/
+.content .p2-4_1,.p2-4_2,.p2-4_3,.p2-4_4,.p2-4_5,.p2-4_6,.p2-4_7,.p2-4_8,.p2-4_9,.p2-4_10,.p2-4_11{
+	width: 58px;
+	height: 25px;
+	/*border: 1px solid #ccc;*/
+	position: absolute;
+	left: 806px;
+	top: 97px;
+}
+.content .p2-4_1 p,.p2-4_2 p,.p2-4_3 p,.p2-4_4 p,.p2-4_5 p,.p2-4_6 p,.p2-4_7 p,.p2-4_8 p,.p2-4_9 p,.p2-4_10 p,.p2-4_11 p{
+	position: absolute;
+	left: 15px;
+	top: 2px;
+	z-index: 1;
+}
+.content .p2-4_1 img,.p2-4_2 img,.p2-4_3 img,.p2-4_4 img,.p2-4_5 img,.p2-4_6 img,.p2-4_7 img,.p2-4_8 img,.p2-4_9 img,.p2-4_10 img,.p2-4_11 img{
+	position: absolute;
+}
+.content .p2-4_1{animation: third_show 7s both linear ;}
+.content .p2-4_2{left: 878px;top: 97px;animation: second_show 6s both linear ;}
+.content .p2-4_2 p{left: 11px;}
+.content .p2-4_3{left: 734px;top: 132px;animation: third_show 7s both linear ;}
+.content .p2-4_3 p{left: 11px;}
+.content .p2-4_4{left: 806px;top: 132px;animation: fourth_show 8s both linear ;}
+.content .p2-4_4 p{left: 15px;}
+.content .p2-4_5{left: 734px;top: 167px;animation: fourth_show 8s both linear ;}
+.content .p2-4_5 p{left: 11px;}
+.content .p2-4_6{left: 806px;top: 167px;animation: second_show 6s both linear ;}
+.content .p2-4_6 p{left: 11px;}
+.content .p2-4_7{left: 734px;top: 202px;animation: second_show 6s both linear ;}
+.content .p2-4_7 p{left: 11px;}
+.content .p2-4_8{left: 806px;top: 202px;animation: fourth_show 8s both linear ;}
+.content .p2-4_8 p{left: 11px;}
+.content .p2-4_9{left: 734px;top: 237px;animation: first_show 5s both linear ;}
+.content .p2-4_9 p{left: 15px;}
+.content .p2-4_10{left: 806px;top: 237px;animation: third_show 7s both linear ;}
+.content .p2-4_10 p{left: 11px;}
+.content .p2-4_11{left: 878px;top: 132px;animation: first_show 5s both linear ;}
+.content .p2-4_11 p{left: 11px;}
+.content .p2-5{/*红心*/
+	width: 22px;
+	height: 18px;
+	background: url(../images/p2-5.png);
+	position: absolute;
+	left: 882px;
+	top: 167px;
+	animation: p2_5 2s linear both infinite;
+}
+/*-------------------------------------图二>>>>>end------------------------------------------*/
+
+/*-------------------------------------图三>>>>>star------------------------------------------*/
+.content .p3-1{
+	width: 246px;
+	height: 246px;
+	background: url(../images/p3-1.png);
+	position: absolute;
+	left: 436px;
+	top: 306px;
+	animation: p3_1 5s linear both infinite;
+}
+.content .p3-2{
+	width: 246px;
+	height: 246px;
+	background: url(../images/p3-2.png);
+	position: absolute;
+	left: 436px;
+	top: 306px;
+	animation: p3_2 5s linear both infinite;
+}
+.content .p3-3{
+	width: 26px;
+	height: 12px;
+	background: url(../images/p3-3.png);
+	position: absolute;
+	left: 470px;
+	top: 345px;
+}
+.content .p3-4{
+	width: 26px;
+	height: 11px;
+	background: url(../images/p3-4.png);
+	position: absolute;
+	left: 602px;
+	top: 325px;
+}
+.content .p3-8{
+	width: 216px;
+	height: 133px;
+	background: url(../images/p3-8.png);
+	position: absolute;
+	left: 451px;
+	top: 380px;
+}
+/*-------------------------------------图三>>>>>end------------------------------------------*/
+
+/*-------------------------------------图四>>>>>star------------------------------------------*/
+.content .p4-1{
+	width: 20px;
+	height: 19px;
+	background: url(../images/p4-1.png);
+	position: absolute;
+	left: 790px;
+	top: 432px;
+	animation: p4_1 5s linear both infinite;
+}
+.content .p4-2{
+	width: 24px;
+	height: 19px;
+	background: url(../images/p4-2.png);
+	position: absolute;
+	left: 788px;
+	top: 433px;
+	animation: p4_2 5s linear both infinite;
+}
+.content .p4-3{
+	width: 25px;
+	height: 19px;
+	background: url(../images/p4-3.png);
+	position: absolute;
+	left: 788px;
+	top: 433px;
+	animation: p4_3 5s linear both infinite;
+}
+/*-------------------------------------图四>>>>>end------------------------------------------*/
+
+/*--------------几个图标>>>star-------------*/
+.content .ct_three{
+	position: absolute;
+	left: 1000px;
+	top: 500px;
+} 
+.content .ct_three li{
+	margin: 5px;
+	float: left;
+}
+.content .ct_three .btn_ios,.btn_android{
+	width: 35px;
+	height: 35px;
+	padding: 8px;
+	border: 1px solid white;
+	cursor: pointer;
+}
+.content .ct_three .btn_download{
+	width: 140px;
+	height: 51px;
+	border: 1px solid white;
+	text-align: center;
+	line-height: 25px;
+	cursor: pointer;
+}
+.content .ct_three .btn_ios:hover,.btn_android:hover{
+	background: rgba(255,255,255,0.3);
+}
+.content .ct_three .btn_download:hover{
+	background: rgba(255,255,255,0.3);
+	
+}
+/*--------------几个图标>>>end-------------*/

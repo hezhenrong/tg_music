@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/keyframes.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base2.css"/>
+		<style type="text/css">
+			body{
+				background: #657faf;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="head">
+			<img src="images/logo1.png" class="left-float logo1"/>
+			<ul  class="nav right-float font_18px">
+				<li><a href="#">首页</a></li>
+				<li><a href="#">听果</a></li>
+				<li><a href="#">关于</a></li>
+				<li><a href="#">加入</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="ct_one">
+				<img src="images/logo.png" class="logo"/>
+				<p class="oneP font_18px">音乐，在这里温柔生长。</p>
+			</div>
+			<div class="ct_two">
+				<img src="images/arrow.png" class="arrow"/>
+				<img src="images/p1.png" class="p1"/>
+				<div class="p1-1"></div>
+				<div class="p1-2"></div>
+				<div class="p1-3"></div>
+				<div class="p1-4"></div>
+				<div class="p1-5"></div>
+				<div class="p1-6"></div>
+				<div class="p1-7father"><div class="p1-7"></div></div>
+				<div class="p1-10"></div>
+				<div class="p1-11"></div>
+				<div class="p1-13"></div>
+				<!--第二张图片>>>star-->
+				<div class="p2-1 cloud_move"></div>
+				<div class="p2-2"></div>
+				<div class="p2-3">
+					<p style="font-size: 1px;">≧◇≦</p>
+					<img src="images/p2-3.png"/>
+				</div>
+				<!--粉红色云文字star-->
+				<div class="p2-4_1">
+					<p style="font-size: 1px;">>3<</p>
+					<img src="images/p2-4.png"/>
+				</div>
+				<div class="p2-4_2">
+				  <p style="font-size: 1px;">\^o^/</p>
+					<img src="images/p2-4.png"/>
+				</div>
+				<div class="p2-4_3">
+					<p style="font-size: 1px;">(*∩_∩*)</p>
+					<img src="images/p2-4.png"/>
+				</div>
+				<div class="p2-4_4">
+					<p style="font-size: 1px;">>3<</p>
+					<img src="images/p2-4.png"/>
+				</div>
+				<div class="p2-4_5">
+					<p style="font-size: 1px;">\^o^/</p>
+					<img src="images/p2-4.png"/>
+				</div>
+				<div class="p2-4_6">
+					<p style="font-size: 1px;">\^o^/</p>
+					<img src="images/p2-4.png"/>
+				</div>
+				<div class="p2-4_7">
+					<p style="font-size: 1px;">(☆_☆)</p>
+					<img src="images/p2-4.png"/>
+				</div>
+				<div class="p2-4_8">
+					<p style="font-size: 1px;">∩ω∩</p>
+					<img src="images/p2-4.png"/>
+				</div>
+				<div class="p2-4_9">
+					<p style="font-size: 1px;">>3<</p>
+					<img src="images/p2-4.png"/>
+				</div>
+				<div class="p2-4_10">
+					<p style="font-size: 1px;">A≧ω≦</p>
+					<img src="images/p2-4.png"/>
+				</div>
+				<div class="p2-4_11">
+					<p style="font-size: 1px;">∩ω∩</p>
+					<img src="images/p2-4.png"/>
+				</div>
+				<!--粉红色云文字end-->
+				<div class="p2-5"></div>
+				<!--第二张图片>>>end-->
+				
+				<!--第三张图片>>>star-->
+				<div class="p3-1"></div>
+				<div class="p3-2"></div>
+				<div class="p3-3 cloud_move"></div>
+				<div class="p3-4 cloud_move"></div>
+				<div class="p3-8"></div>
+				<!--第三张图片>>>end-->
+				
+				<!--第四张图片>>>star-->
+				<div class="p4-1"></div>
+				<div class="p4-2"></div>
+				<div class="p4-3"></div>
+				<!--第四张图片>>>end-->
+			</div>
+			<div class="ct_three">
+				<ul>
+					<li class="btn_ios"><a><img src="images/icon-ios.png"/></a></li>
+					<li class="btn_android"><a><img src="images/icon-android.png"/></a></li>
+					<li class="btn_download"><a>下载<br />听果音乐app</a></li>
+					<img src="images/code.png" class="code" style="width: 210px; height: 210px; position: absolute; left: 62px; top: -225px;opacity: 0;"/>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var btn_download=document.querySelector(".btn_download");
+			var oCode=document.querySelector(".code");
+			var timer=null,num=0;
+			btn_download.onmouseover=function(){
+				clearInterval(timer);
+				timer=setInterval(function(){
+					num++;
+					oCode.style.opacity=num/10;
+					if(num>=10){clearInterval(timer);return num;}
+				},30);
+			}
+			btn_download.onmouseout=function(){
+				clearInterval(timer);
+				timer=setInterval(function(){
+					num--;
+					oCode.style.opacity=num/10;
+					if(num<=0){clearInterval(timer);return num;}
+				},30);
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,291 @@
+/*下滚上*/
+@keyframes ct_one_move{
+	0%{
+		transform: translate(0px,500px);
+	}
+	40%{
+		transform: translate(0px,500px);
+	}
+	100%{
+		transform: translate(0px,0px);
+	}
+}
+
+/*图一*/
+@keyframes p1_1{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes p1_3{
+	0%{
+		opacity: 1;
+		transform: translate(0px,0px);
+	}
+	50%{
+		opacity: 1;
+		transform: translate(0px,40px);
+	}
+	100%{
+		opacity: 0;
+		transform: translate(0px,40px);
+	}	
+}
+
+@keyframes p1_4{
+	0%{
+		opacity: 0;
+		/*transform: translate(0px,-3px);*/
+	}
+	/*15%{
+		opacity: 1;
+		transform: translate(0px,-33px);
+	}*/
+	36%{
+		opacity: 0;
+		transform: translate(0px,-3px);
+	}
+	38%{
+		opacity: 1;
+		transform: translate(0px,0px);
+	}
+	/*45%{
+		opacity: 1;
+		transform: translate(70px,0px);
+	}*/
+	58%{
+		opacity: 1;
+		transform: translate(0px,35px);
+	}
+	60%{
+		opacity: 1;
+		transform: translate(0px,35px);
+	}
+	70%{
+		
+		transform: translate(0px,35px);
+		opacity: 0;
+	}
+	/*98%{
+		opacity: 0;
+		transform: translate(0px,-2px);
+	}*/
+	100%{
+		opacity: 0;
+		
+	}
+}
+
+@keyframes p1_5{
+	0%{
+		opacity: 1;
+		transform: translate(0px,0px);
+	}
+	15%{
+		opacity: 1;
+		transform: translate(0px,-33px);
+	}
+	30%{
+		opacity: 1;
+		transform: translate(70px,-33px);
+	}
+	45%{
+		opacity: 1;
+		transform: translate(70px,0px);
+	}
+	60%{
+		opacity: 1;
+		transform: translate(70px,0px);
+	}
+	70%{
+		
+		transform: translate(70px,0px);
+		opacity: 0;
+	}
+	98%{
+		opacity: 0;
+		transform: translate(0px,-2px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0px,0px);
+	}
+}
+
+@keyframes p1_6 {
+    from{
+        background-position-x:right ;
+    }
+    to{
+        background-position-x: left;
+    }
+}
+@keyframes p1_7father{
+	0%{
+        transform: translate(0px,0px);
+        opacity: 0;
+    }
+    5%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 1;
+    }
+    45%{
+        opacity: 1;
+    }
+    50%{
+        transform: translate(105px,0px);
+        opacity: 0;
+    }
+    100%{
+    	transform: translate(183px,0px);
+        opacity: 0;
+    }
+}
+@keyframes p1_7{
+	0%{
+        background-position: left;
+    }
+    12.5%{
+    	background-position: center;
+    }
+    25%{
+        background-position: right;
+    }
+    37.5%{
+    	background-position: center;
+    }
+    50%{
+        background-position: left;
+    }
+    
+    62.5%{
+    	background-position: center;
+    }
+    75%{
+        background-position: right;
+    }
+    87.5%{
+    	background-position: center;
+    }
+    100%{
+        background-position: left;
+    }
+}
+/*图二*/
+@keyframes p2_1{/*云的运动*/
+	0%{
+		opacity: 1;
+		transform: translate(0px,0px);
+	}
+	50%{
+		opacity: 0.8;
+		transform: translate(15px,0px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0px,0px);
+	}
+}
+.cloud_move{animation: p2_1 3s linear both infinite;}
+
+@keyframes p2_2{
+	0%{
+		opacity: 0;
+		transform: translate(0px,0px);
+	}
+	20%{
+		opacity: 1;
+		transform: translate(0px,0px);
+	}
+	60%{
+		opacity: 1;
+		transform: translate(200px,0px);
+	}
+	80%{
+		opacity: 0;
+		transform: translate(250px,0px);
+	}
+	100%{
+		opacity: 0;
+	}
+}
+@keyframes p2_5{
+	0%{
+		transform: scale(0.8,0.8);
+	}
+	50%{
+		transform: scale(1,1);
+	}
+	100%{
+		transform: scale(0.8,0.8);
+	}
+}
+@keyframes first_show{
+	0%{opacity: 1;}
+	19%{opacity: 1;}
+	20%{opacity: 0;}
+	80%{opacity: 0;}
+	100%{opacity: 1;}
+}
+@keyframes second_show{
+	0%{opacity: 1;}
+	15.66666%{opacity: 1;}
+	16.66666%{opacity: 0;}
+	83.33333%{opacity: 0;}
+	100%{opacity: 1;}
+}
+@keyframes third_show{
+	0%{opacity: 1;}
+	13.28571%{opacity: 1;}
+	14.28571%{opacity: 0;}
+	85.71429%{opacity: 0;}
+	100%{opacity: 1;}
+}
+@keyframes fourth_show{
+	0%{opacity: 1;}
+	11.5%{opacity: 1;}
+	12.5%{opacity: 0;}
+	87.5%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+/*图三*/
+@keyframes p3_1{
+	0%{opacity: 0;}
+	50%{opacity: 1;}
+	100%{opacity: 0;}
+}
+@keyframes p3_2{
+	0%{opacity: 1;}
+	50%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+/*图四*/
+@keyframes p4_1{
+	0%{opacity: 1;}
+	25%{opacity: 0;}
+	50%{opacity: 0;}
+	75%{opacity: 0;}
+	100%{opacity: 1;}
+}
+@keyframes p4_2{
+	0%{opacity: 0;}
+	25%{opacity: 1;}
+	50%{opacity: 0;}
+	75%{opacity: 1;}
+	100%{opacity: 0;}
+}
+@keyframes p4_3{
+	0%{opacity: 0;}
+	25%{opacity: 0;}
+	50%{opacity: 1;}
+	75%{opacity: 0;}
+	100%{opacity: 0;}
+}
